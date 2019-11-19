@@ -21,21 +21,21 @@
         </div>
       </div>
       <div class = "content_box">
-        <div class = content_box_mini>
+        <div class = content_box_mini_1>
           <div class = "content_box_text">
             <div class = "introduction_box">
               Introduction
             </div>
           </div>
         </div>
-        <div class = content_box_mini>
+        <div class = content_box_mini_2>
           <div class = "content_box_text">
             <div class = "skill_box">
               Skill
             </div>
           </div>
         </div>
-        <div class = content_box_mini>
+        <div class = content_box_mini_3>
           <div class = "content_box_text">
             <div class = "production">
               Production

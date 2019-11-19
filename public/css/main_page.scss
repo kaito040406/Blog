@@ -25,10 +25,36 @@
   height: 30%;
   background: white;
 }
-.content_box_mini{
+.content_box_mini_1{
   height:100%;
   width: 33.3%;
   float: left;
+  border-radius: 70px;
+}
+.content_box_mini_1:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
+  box-shadow: 20px 20px;
+}
+.content_box_mini_2{
+  height:100%;
+  width: 33.3%;
+  float: left;
+  border-radius: 70px;
+}
+.content_box_mini_2:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
+}
+.content_box_mini_3{
+  height:100%;
+  width: 33.3%;
+  float: left;
+  border-radius: 70px;
+}
+.content_box_mini_3:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
 }
 .content_box_text{
   margin: 100px auto;
