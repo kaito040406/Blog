@@ -36,13 +36,15 @@
         </div>
       </div>
       <div class = "content_box">
-        <div class = content_box_mini_1>
-          <div class = "content_box_text">
-            <div class = "introduction_box">
-              Introduction
+      <a href="{!! action('IntroductionController@index') !!}">
+          <div class = content_box_mini_1>
+            <div class = "content_box_text">
+              <div class = "introduction_box">
+                Introduction
+              </div>
             </div>
           </div>
-        </div>
+      </a>
         <div class = content_box_mini_2>
           <div class = "content_box_text">
             <div class = "skill_box">

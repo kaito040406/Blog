@@ -1,0 +1,27 @@
+.image_zone{
+  width: 100%;
+  margin: 0 200px;
+}
+.image_box{
+  padding-left: 180px;
+  padding-top: 40px;
+  width: 500px;
+}
+.my_image{
+  position: flex;
+  height: 200px;
+  border-radius: 170px;
+  width: 200px;
+  border: solid 3px rgb(173, 12, 71);
+}
+.name_box{
+  float: left;
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+  font-size: 40px;
+}
+
+.text_box_1{
+  padding-top: 20px;
+}
