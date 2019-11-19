@@ -14,6 +14,10 @@
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
-    テスト
+    <div class = "image_zone">
+      <div class = "image_box">
+        <img src="{{ asset('images/image.jpg') }}" alt="inu">
+      </div>
+    </div>
   </body>
 </html>
