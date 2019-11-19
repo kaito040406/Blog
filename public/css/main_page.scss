@@ -1,0 +1,25 @@
+.box{
+  height: 100vh;
+  width: 100%;
+}
+
+.title_box{
+  border: 3px solid #eb6101;
+  background: white;
+  text-align: center;
+  font-size: 17px;
+  height: 70%;
+}
+
+
+
+.content_box{
+  height: 30%;
+  border: 3px solid burlywood;
+  background: white;
+}
+.content_box_mini{
+  height:100%;
+  width: 33.3%;
+  float: left;
+}

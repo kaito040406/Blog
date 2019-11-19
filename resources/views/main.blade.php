@@ -8,7 +8,8 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <!-- <link href="{{asset("css/main_page.css")}}" rel="stylesheet"> -->
     <title>main page</title>
-    <link href="css/main_page.css" rel="stylesheet" type="text/css">
+    <link href="css/_reset.scss" rel="stylesheet" type="text/css">
+    <link href="css/main_page.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class = "box">
@@ -18,14 +19,20 @@
         </div>
       </div>
       <div class = "content_box">
-        <div class = "introduction_box">
-          Introduction
+        <div class = content_box_mini>
+          <div class = "introduction_box">
+            Introduction
+          </div>
         </div>
-        <div class = "skill_box">
-          Skill
+        <div class = content_box_mini>
+          <div class = "skill_box">
+            Skill
+          </div>
         </div>
-        <div class = "production">
-          Production
+        <div class = content_box_mini>
+          <div class = "production">
+            Production
+          </div>
         </div>
       </div>
     </div>
