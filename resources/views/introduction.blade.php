@@ -10,14 +10,19 @@
     
     <title>main page</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
-    <link href="css/_reset.scss" rel="stylesheet" type="text/css">
-    <link href="css/main_page.scss" rel="stylesheet" type="text/css">
+    <link href="css/reset.scss" rel="stylesheet" type="text/css">
+    <link href="css/introduction.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class = "image_zone">
       <div class = "image_box">
-        <img src="{{ asset('images/image.jpg') }}" alt="inu">
+        <img src="{{ asset('images/image.png') }}" alt="inu" class="my_image">
+      </div>
+      <div class = "name_box">
+        長谷川 海斗
       </div>
     </div>
+    
+
   </body>
 </html>
