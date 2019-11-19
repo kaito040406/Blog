@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::resource('main', 'Main_Controller');
+Route::resource('introduction', 'Main_Controller@introduction');
 
