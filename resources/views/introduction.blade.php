@@ -22,7 +22,9 @@
         長谷川 海斗
       </div>
     </div>
-    
+    <div class="text_box_1">
+    <h3>■自己紹介</h3>
+    </div>
 
   </body>
 </html>
