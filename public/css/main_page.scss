@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
 
+header{
+  position: relative;
+  top: -16px;
+  z-index: 100;
+}
+
+
 .box{
-  height: 100vh;
+  height: 83vh;
   width: 100%;
+  margin-bottom: 40px;
 }
 .title_box{
   background: white;
@@ -12,8 +20,8 @@
 }
 .main_title{
   text-align: center;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 70px;
 }
@@ -22,7 +30,7 @@
 
 
 .content_box{
-  height: 30%;
+  height: 36%;
   background: white;
 }
 .content_box_mini_1{
