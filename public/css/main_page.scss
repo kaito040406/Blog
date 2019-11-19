@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+header{
+  position: relative;
+  top: -16px;
+  z-index: 100;
+}
+
+.m_font{
+  color: black;
+}
+
+.box{
+  height: 83vh;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.title_box{
+  background: white;
+  font-size: 17px;
+  height: 70%;
+}
+.main_title{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 70px;
+}
+
+
+
+
+.content_box{
+  height: 36%;
+  background: white;
+}
+.content_box_mini_1{
+  height:100%;
+  width: 33.3%;
+  float: left;
+  border-radius: 70px;
+}
+.content_box_mini_1:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
+  transition: 0.8s;
+}
+.content_box_mini_2{
+  height:100%;
+  width: 33.3%;
+  float: left;
+  border-radius: 70px;
+}
+.content_box_mini_2:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
+  transition: 0.8s;
+}
+.content_box_mini_3{
+  height:100%;
+  width: 33.3%;
+  float: left;
+  border-radius: 70px;
+}
+.content_box_mini_3:hover{
+  background-color: rgb(173, 12, 71);
+  color: white;
+  transition: 0.8s;
+}
+.content_box_text{
+  margin: 100px auto;
+  text-align: center;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 25px;
+}
