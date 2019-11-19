@@ -6,10 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap の CSS（CDN経由）の読み込み -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Hello, world!</title>
+  <title>main page</title>
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <header>
+    <div class = "main_title">
+      タイトルだぜ!!!
+    </div>
+  </header>
  
   <!-- 関連 JavaScript の読み込み-->
   <!-- jQuery, Popper.js, Bootstrap JS の順に読み込みます-->
