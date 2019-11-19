@@ -9,20 +9,22 @@
     <title>main page</title>
   </head>
   <body>
-    <div class = "title_box">
-      <div class = "main_title">
-        Profile
+    <div class = "box">
+      <div class = "title_box">
+        <div class = "main_title">
+          Profile
+        </div>
       </div>
-    </div>
-    <div class = "content_box">
-      <div class = "introduction_box">
-        Introduction
-      </div>
-      <div class = "skill_box">
-        Skill
-      </div>
-      <div class = "production">
-        Production
+      <div class = "content_box">
+        <div class = "introduction_box">
+          Introduction
+        </div>
+        <div class = "skill_box">
+          Skill
+        </div>
+        <div class = "production">
+          Production
+        </div>
       </div>
     </div>
   </body>
