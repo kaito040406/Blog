@@ -34,7 +34,27 @@
       </div>
       <div class = "app_production_list">
         <div class = "app_production_list_title">
-          ■制作物一覧
+          ■ Application list
+        </div>
+        <div class = "app_productions">
+          <div class = "app_production">
+            <div class = "app_title">
+              メルカリコピー
+              <div class = "app_text">
+                http://3.112.169.24/
+              </div>
+            </div>
+          </div>
+          <div class = "app_production">
+            <div class = "app_title">
+              auto-mode
+              <div class = "app_text">
+                FX向けの自動トレードツールを作成しました。
+                OANDA apiを用いて、為替の情報を取得し、短期、中期、長期でのトレンドの情報を計算させて
+                相場情報を判断し、売買するツールです。でも講座を用いて、利益を得るための調整を行なっております。今後は、機械学習を用いて、精度を向上させていく予定です。
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </body>
