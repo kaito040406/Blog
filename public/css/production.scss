@@ -7,7 +7,7 @@
 
 .title_production{
   font-size: 80px;
-  height: 300px;
+  height: 270px;
   
 }
 
@@ -20,12 +20,29 @@
 
 .app_box{
   float: left;
-  font-size: 30px;
+  font-size: 40px;
+  margin-left: 300px;
+}
+
+.app_box_text{
+  height: 170px;
+  width: 320px;
+  padding-top: 47px;
+  background-color: aqua;
+  border-radius: 30px;
 }
 
 
 .youtube_box{
   float: right;
-  font-size: 30px;
-  margin: 0 auto;
+  font-size: 40px;
+  margin-right: 300px;
+}
+
+.youtube_box_text{
+  height: 170px;
+  width: 320px;
+  padding-top: 47px;
+  background-color: palevioletred;
+  border-radius: 30px;
 }
