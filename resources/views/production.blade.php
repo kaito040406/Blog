@@ -41,7 +41,9 @@
             <div class = "app_title">
               メルカリコピー
               <div class = "app_text">
-                http://3.112.169.24/
+                <a href=" http://3.112.169.24/">
+                  詳細はこちら
+                <a>
               </div>
             </div>
           </div>
