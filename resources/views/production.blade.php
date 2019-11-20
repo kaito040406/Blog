@@ -14,10 +14,24 @@
     <link href="css/production.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header>
-      <div class = "page_title">
-        Production
+    <body>
+      <div class = "production_box">
+        <div class = "title_production">
+            Production
+        </div>
+        <div class = "content_box">
+          <div class = "app_box">
+            <div class = "app_box_text">
+              App
+            </div>
+          </div>
+          <div class = "youtube_box">
+            <div class = "youtube_box_text">
+              YouTube
+            </div>
+          </div>
+        </div>
       </div>
-    </header>
+    </body>
   </body>
 </html>
