@@ -52,6 +52,7 @@
             </div>
           </div>
         </div>
+      <a href="{!! action('ProductionController@index') !!}">
         <div class = content_box_mini_3>
           <div class = "content_box_text">
             <div class = "production">
@@ -59,6 +60,7 @@
             </div>
           </div>
         </div>
+      </a>
       </div>
     </div>
   </body>
