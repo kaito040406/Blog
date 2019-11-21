@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('/introduction', 'IntroductionController@index');
 Route::get('/production', 'ProductionController@index');
+Route::get('/zip', 'ZipController@index');
 
