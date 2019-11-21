@@ -24,6 +24,12 @@
     </div>
     <div class="text_box_1">
     <h3>■自己紹介</h3>
+    <div class = "introduction_text">
+        26歳、未経験でエンジニアになるべく、勉強を始めました。
+        学習中の言語は、ruby, rails, PHP, larval, pythonです。
+        プログラム以外にも機械学習にも興味があり、勝てるトレードツールの開発も行っております。
+        よろしくお願いいたします。
+    </div>
     </div>
 
   </body>
