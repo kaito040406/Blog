@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap の CSS（CDN経由）の読み込み -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- <link href="{{asset("css/main_page.css")}}" rel="stylesheet"> -->
     
     <title>main page</title>
@@ -13,6 +14,7 @@
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
     <link href="css/production.scss" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </head>
   <body>
     <header>
@@ -36,7 +38,7 @@
       </div>
       <div class = "content_box">
         <div class = "app_box">
-          <div class = "app_box_text">
+          <div class = "app_box_text" id = app_box_bottan>
             App
           </div>
         </div>
@@ -47,7 +49,7 @@
         </div>
       </div>
     </div>
-    <div class = "app_production_list">
+    <div class = "app_production_list" id = "app_production_list">
       <div class = "app_production_list_title">
         ■ Application list
       </div>
@@ -78,6 +80,9 @@
             </div>
           </div>
         </div>
+      <div class = "youtube_production_list_title">
+        ■ Youtube list
+      </div>
       </div>
     </div>
   </body>
