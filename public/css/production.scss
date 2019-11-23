@@ -51,16 +51,29 @@
   float: right;
   font-size: 40px;
   margin-right: 300px;
+  margin-top: 10px;
 }
 
 .youtube_box_text{
   height: 170px;
   width: 320px;
   padding-top: 47px;
-  background-color: palevioletred;
+  background-image: url('/images/youtbe.png');
   border-radius: 30px;
   font-family: 'Ubuntu Mono', monospace;
+  color: white;
 }
+.youtube_box_text:hover{
+  filter:drop-shadow(10px 10px 10px #4e4e4e);
+  transition: 0.4s;
+}
+.youtube_box:hover{
+  margin-right: 310px;
+  margin-top: 0;
+  transition: 0.4s;
+}
+
+
 
 .app_production_list{
   float: left;
