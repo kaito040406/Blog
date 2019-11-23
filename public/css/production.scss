@@ -18,7 +18,6 @@
 
 .content_box{
   text-align: center;
-
 }
 
 
@@ -26,6 +25,7 @@
   float: left;
   font-size: 40px;
   margin-left: 300px;
+  margin-top: 10px;
 }
 
 .app_box_text{
@@ -35,8 +35,17 @@
   background-image: url('/images/app.png');
   border-radius: 30px;
   font-family: 'Ubuntu Mono', monospace;
+  color: white;
 }
-
+.app_box_text:hover{
+  filter:drop-shadow(10px 10px 10px #4e4e4e);
+  transition: 0.4s;
+}
+.app_box:hover{
+  margin-left: 290px;
+  margin-top: 0;
+  transition: 0.4s;
+}
 
 .youtube_box{
   float: right;
