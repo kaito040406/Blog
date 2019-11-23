@@ -39,22 +39,27 @@
         <div class = "app_productions">
           <div class = "app_production">
             <div class = "app_title">
-              メルカリコピー
+              <div class = "app_title_text">
+                メルカリコピー
+              </div>
               <div class = "app_text">
+                プログラミングスクール TEACH::EXPEARTにてチーム開発を行なった時のものです。
                 <a href=" http://3.112.169.24/">
-                  詳細はこちら
+                  <br>詳細はこちら
                 <a>
               </div>
             </div>
           </div>
           <div class = "app_production">
             <div class = "app_title">
-              auto-mode
+              <div class = "app_title_text">
+                FX用自動売買ツール auto-mode
+              </div>
               <div class = "app_text">
                 FX向けの自動トレードツールを作成しました。
                 OANDA apiを用いて、為替の情報を取得し、短期、中期、長期でのトレンドの情報を計算させて
                 相場情報を判断し、売買するツールです。でも講座を用いて、利益を得るための調整を行なっております。今後は、機械学習を用いて、精度を向上させていく予定です。
-                <a href="{{url('/images/auto-mode.zip')}}" download>ダウンロードはこちら</a>
+                <a href="{{url('/images/auto-mode.zip')}}" download><br>ダウンロードはこちら</a>
               </div>
             </div>
           </div>

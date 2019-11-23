@@ -81,7 +81,6 @@
 .app_production{
   margin-top: 13px;
   width: 100%;
-  background-color: peachpuff;
   border-radius: 20px;
 }
 .app_title{
@@ -93,4 +92,12 @@
   width:100%;
   font-size: 15px;
   padding-bottom:20px;
+  padding-left: 20px;
+}
+
+
+.app_title_text{
+  display: inline-block;
+  height: 25px;
+  background: linear-gradient(transparent 45%, #ffff66 0%);
 }
