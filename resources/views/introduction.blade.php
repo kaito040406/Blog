@@ -14,6 +14,21 @@
     <link href="css/introduction.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="/">Home</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"></a>
+            </li>
+        </ul>
+      </div>
+    </nav>  
+  </header>
     <div class = "image_zone">
       <div class = "image_box">
         <img src="{{ asset('images/image.png') }}" alt="inu" class="my_image">
@@ -29,6 +44,19 @@
         『太く短く美しく』というテーマのもと生きております。<br>
         プログラム以外にも機械学習にも興味があり、勝てるトレードツールの開発も行っております。<br>
         よろしくお願いいたします。
+      </div>
+    </div>
+    <div class="text_box_1">
+    <h3>■学習中の言語,フレームワーク</h3>
+      <div class = "introduction_text">
+        ・Ruby<br>
+        ・Rails<br>
+        ・Python<br>
+        ・PHP<br>
+        ・Laravel<br>
+        ・JavaScript<br>
+        ・HTML(haml)<br>
+        ・CSS(scss)<br>
       </div>
     </div>
   </body>
