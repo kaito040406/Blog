@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- <link href="{{asset("css/main_page.css")}}" rel="stylesheet"> -->
     
-    <title>main page</title>
+    <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
