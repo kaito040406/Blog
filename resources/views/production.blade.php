@@ -1,13 +1,10 @@
-<!doctype html><!-- HTML5-->
+<!doctype html>
 <html lang="ja">
   <head>
-    <!-- 以下の meta tags（charset と viewport）は必須です-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap の CSS（CDN経由）の読み込み -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <!-- <link href="{{asset("css/main_page.css")}}" rel="stylesheet"> -->
     
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
@@ -32,76 +29,78 @@
           </div>
       </nav>  
     </header>
-    <div class = "production_box">
-      <div class = "title_production">
-          Production
+    <div class="change_box">
+      <div class = "production_box">
+        <div class = "title_production">
+            Production
+        </div>
+        <div class = "content_box">
+          <div class = "app_box">
+            <div class = "app_box_text" id = app_box_bottan>
+              App
+            </div>
+          </div>
+          <div class = "youtube_box">
+            <div class = "youtube_box_text">
+              YouTube
+            </div>
+          </div>
+        </div>
       </div>
-      <div class = "content_box">
-        <div class = "app_box">
-          <div class = "app_box_text" id = app_box_bottan>
-            App
-          </div>
+      <div class = "app_production_list" id = "app_production_list">
+        <div class = "app_production_list_title">
+          ■ Application list
         </div>
-        <div class = "youtube_box">
-          <div class = "youtube_box_text">
-            YouTube
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class = "app_production_list" id = "app_production_list">
-      <div class = "app_production_list_title">
-        ■ Application list
-      </div>
-      <div class = "app_productions">
-        <div class = "app_production">
-          <div class = "app_title">
-            <div class = "app_title_text">
-              メルカリコピー
-            </div>
-            <div class = "app_text">
-              プログラミングスクール TECH::EXPERTにてチーム開発を行なった時のものです。
-              <a href=" http://3.112.169.24/">
-                <br>詳細はこちら
-              <a>
+        <div class = "app_productions">
+          <div class = "app_production">
+            <div class = "app_title">
+              <div class = "app_title_text">
+                メルカリコピー
+              </div>
+              <div class = "app_text">
+                プログラミングスクール TECH::EXPERTにてチーム開発を行なった時のものです。
+                <a href=" http://3.112.169.24/">
+                  <br>詳細はこちら
+                <a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class = "app_production">
-          <div class = "app_title">
-            <div class = "app_title_text">
-              FX用自動売買ツール auto-mode
-            </div>
-            <div class = "app_text">
-              FX向けの自動トレードツールを作成しました。<br>
-              OANDA apiを用いて、為替の情報を取得し、短期、中期、長期でのトレンドの情報を計算させて
-              相場情報を判断し、売買するツールです。デモ講座を用いて、利益を得るための調整を行なっております。<br>
-              今後は、機械学習を用いて、精度を向上させていく予定です。
-              <a href="{{url('/images/auto-mode.zip')}}" download><br>ダウンロードはこちら</a><br>
-              <img src="{{ asset('images/auto-mode.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
-            </div>
-          </div>
-        </div>
-        <div class = "app_production">
-          <div class = "app_title">
-            <div class = "app_title_text">
-              Dream diary
-            </div>
-            <div class = "app_text">
-              自殺防止を目的としたアプリケーションです。<br>
-              昨日見た夢を投稿するSNSとなっております。<br>
-              夢の状態からその人が危険かをお互いに判断することができます。<br>
-              また、『ゆるい』というデザインコンセプトを取っており、可愛いキャラクターたちが癒してくれます。
-              <a href=" http://52.199.170.110/">
-                <br>詳細はこちら
-              <a><br>
-              <img src="{{ asset('images/dream_diary.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
+          <div class = "app_production">
+            <div class = "app_title">
+              <div class = "app_title_text">
+                FX用自動売買ツール auto-mode
+              </div>
+              <div class = "app_text">
+                FX向けの自動トレードツールを作成しました。<br>
+                OANDA apiを用いて、為替の情報を取得し、短期、中期、長期でのトレンドの情報を計算させて
+                相場情報を判断し、売買するツールです。デモ講座を用いて、利益を得るための調整を行なっております。<br>
+                今後は、機械学習を用いて、精度を向上させていく予定です。
+                <a href="{{url('/images/auto-mode.zip')}}" download><br>ダウンロードはこちら</a><br>
+                <img src="{{ asset('images/auto-mode.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
+              </div>
             </div>
           </div>
+          <div class = "app_production">
+            <div class = "app_title">
+              <div class = "app_title_text">
+                Dream diary
+              </div>
+              <div class = "app_text">
+                自殺防止を目的としたアプリケーションです。<br>
+                昨日見た夢を投稿するSNSとなっております。<br>
+                夢の状態からその人が危険かをお互いに判断することができます。<br>
+                また、『ゆるい』というデザインコンセプトを取っており、可愛いキャラクターたちが癒してくれます。
+                <a href=" http://52.199.170.110/">
+                  <br>詳細はこちら
+                <a><br>
+                <img src="{{ asset('images/dream_diary.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
+              </div>
+            </div>
+          </div>
+        <div class = "youtube_production_list_title">
+          ■ Youtube list  Comming soon
         </div>
-      <div class = "youtube_production_list_title">
-        ■ Youtube list  Comming soon
-      </div>
+        </div>
       </div>
     </div>
   </body>

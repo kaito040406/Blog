@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
+    <link href="css/introduction.scss" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/main_page.js') }}"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.js"></script>
+    <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </head>
   <body>
     <header>
@@ -29,38 +36,40 @@
           </div>
       </nav>  
     </header>
-    <div class = "box">
-      <div class = "title_box">
-        <div class = "main_title">
-          Profile
+    <div class="change_box">
+      <div class = "box">
+        <div class = "title_box">
+          <div class = "main_title" id = "title">
+            Profile
+          </div>
         </div>
-      </div>
-      <div class = "content_box">
-      <a href="{!! action('IntroductionController@index') !!}">
-          <div class = content_box_mini_1>
+        <div class = "content_box">
+        <a>
+            <div class = content_box_mini_1>
+              <div class = "content_box_text">
+                <div class = "introduction_box">
+                  Introduction
+                </div>
+              </div>
+            </div>
+        </a>
+          <div class = content_box_mini_2 class="pjax">
             <div class = "content_box_text">
-              <div class = "introduction_box">
-                Introduction
+              <div class = "skill_box">
+                Skill
               </div>
             </div>
           </div>
-      </a>
-        <div class = content_box_mini_2>
-          <div class = "content_box_text">
-            <div class = "skill_box">
-              Skill
+        <a href="{!! action('ProductionController@index') !!}" class="pjax">
+          <div class = content_box_mini_3>
+            <div class = "content_box_text">
+              <div class = "production">
+                Production
+              </div>
             </div>
           </div>
+        </a>
         </div>
-      <a href="{!! action('ProductionController@index') !!}">
-        <div class = content_box_mini_3>
-          <div class = "content_box_text">
-            <div class = "production">
-              Production
-            </div>
-          </div>
-        </div>
-      </a>
       </div>
     </div>
   </body>
