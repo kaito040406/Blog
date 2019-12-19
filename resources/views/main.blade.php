@@ -13,6 +13,7 @@
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
     <link href="css/introduction.scss" rel="stylesheet" type="text/css">
+    <link href="css/production.scss" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script type="text/javascript" src="{{ asset('js/main_page.js') }}"></script>
