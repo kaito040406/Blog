@@ -18,6 +18,7 @@
     <script type="text/javascript" src="{{ asset('js/main_page.js') }}"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
     <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </head>
   <body>
