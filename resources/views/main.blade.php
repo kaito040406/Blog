@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class = "content_box">
-        <a href="{!! action('IntoroductionController@index') !!}" class="pjax">
+        <a href="{!! action('IntroductionController@index') !!}" class="pjax">
             <div class = content_box_mini_1>
               <div class = "content_box_text">
                 <div class = "introduction_box">
