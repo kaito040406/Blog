@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
     <link href="css/main_page.scss" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/introduction.scss" rel="stylesheet" type="text/css">
     <link href="css/production.scss" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
