@@ -9,7 +9,6 @@
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/_reset.scss" rel="stylesheet" type="text/css">
-    <link href="css/main_page.scss" rel="stylesheet" type="text/css">
     <link href="css/production.scss" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </head>
@@ -76,7 +75,7 @@
                 相場情報を判断し、売買するツールです。デモ講座を用いて、利益を得るための調整を行なっております。<br>
                 今後は、機械学習を用いて、精度を向上させていく予定です。
                 <a href="{{url('/images/auto-mode.zip')}}" download><br>ダウンロードはこちら</a><br>
-                <img src="{{ asset('images/auto-mode.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
+                <img src="{{ asset('images/auto-mode.png') }}" alt="inu" class="auto-mode_image">
               </div>
             </div>
           </div>
@@ -93,7 +92,7 @@
                 <a href=" http://52.199.170.110/">
                   <br>詳細はこちら
                 <a><br>
-                <img src="{{ asset('images/dream_diary.png') }}" alt="inu" class="auto-mode_image" height = 400px;>
+                <img src="{{ asset('images/dream_diary.png') }}" alt="inu" class="auto-mode_image">
               </div>
             </div>
           </div>
@@ -103,5 +102,34 @@
         </div>
       </div>
     </div>
+    <div class = "content_box2">
+        <a href="{!! action('IntroductionController@index') !!}" class="pjax">
+            <div class = content_box_mini_1>
+              <div class = "content_box_text">
+                <div class = "introduction_box">
+                  Introduction
+                </div>
+              </div>
+            </div>
+        </a>
+        <a href="/">
+          <div class = content_box_mini_2 class="pjax">
+            <div class = "content_box_text">
+              <div class = "skill_box">
+                Home
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="{!! action('ProductionController@index') !!}" class="pjax">
+          <div class = content_box_mini_3>
+            <div class = "content_box_text">
+              <div class = "production">
+                Production
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
   </body>
 </html>

@@ -11,6 +11,7 @@
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/introduction.scss" rel="stylesheet" type="text/css">
+    <link href="css/main_page.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
   <header>
@@ -38,7 +39,7 @@
         </div>
       </div>
       <div class="text_box_1">
-      <h3>■自己紹介</h3>
+      <h3 class="list_text">■自己紹介</h3>
         <div class = "introduction_text">
           未経験でエンジニアになるべく、勉強を始めました。学習中の言語は、ruby, rails, PHP, larval, pythonです。<br>
           『太く短く美しく』というテーマのもと生きております。<br>
@@ -47,7 +48,7 @@
         </div>
       </div>
       <div class="text_box_1">
-      <h3>■学習中の言語,フレームワーク</h3>
+      <h3 class="list_text">■学習中の言語,フレームワーク</h3>
         <div class = "introduction_text">
           ・Ruby<br>
           ・Rails<br>
@@ -60,5 +61,34 @@
         </div>
       </div>
     </div>
+    <div class = "content_box2">
+        <a href="{!! action('IntroductionController@index') !!}" class="pjax">
+            <div class = content_box_mini_1>
+              <div class = "content_box_text">
+                <div class = "introduction_box">
+                  Introduction
+                </div>
+              </div>
+            </div>
+        </a>
+        <a href="/">
+          <div class = content_box_mini_2 class="pjax">
+            <div class = "content_box_text">
+              <div class = "skill_box">
+                Home
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="{!! action('ProductionController@index') !!}" class="pjax">
+          <div class = content_box_mini_3>
+            <div class = "content_box_text">
+              <div class = "production">
+                Production
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
   </body>
 </html>

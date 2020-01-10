@@ -1,122 +1,300 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
 
-.production_box{
-  width: 100%;
-  height: 100vh;
-  text-align: center;
-  font-family: 'Ubuntu Mono', monospace;
-  padding-top: 160px;
+@media screen and (min-width:1280px) {
+
+  header{
+    position: relative;
+    top: -16px;
+    z-index: 100;
+  }
+  .production_box{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-top: 100px;
+  }
+
+  .title_production{
+    font-size: 80px;
+    height: 250px;
+    
+  }
+
+
+  .content_box{
+    text-align: center;
+  }
+
+
+  .app_box{
+    float: left;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+
+  .app_box_text{
+    height: 170px;
+    width: 320px;
+    padding-top: 47px;
+    background-image: url('/images/app.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+  }
+  .app_box_text:hover{
+    filter:drop-shadow(10px 10px 10px #4e4e4e);
+    transition: 0.4s;
+  }
+  .app_box:hover{
+    margin-left: 290px;
+    margin-top: 0;
+    transition: 0.4s;
+  }
+
+  .youtube_box{
+    float: right;
+    font-size: 40px;
+    margin-right: 300px;
+    margin-top: 10px;
+  }
+
+  .youtube_box_text{
+    height: 170px;
+    width: 320px;
+    padding-top: 47px;
+    background-image: url('/images/youtbe.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+  }
+  .youtube_box_text:hover{
+    filter:drop-shadow(10px 10px 10px #4e4e4e);
+    transition: 0.4s;
+  }
+  .youtube_box:hover{
+    margin-right: 310px;
+    margin-top: 0;
+    transition: 0.4s;
+  }
+
+
+  .app_production_list{
+    float: left;
+    height: 100vh;
+    padding: 10px 430px 0 430px;
+    width: 100%;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+
+  .app_production_list_title{
+    font-size: 30px;
+  }
+
+  .app_productions{
+    height: 500px;
+  }
+
+  .app_production{
+    margin-top: 13px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .app_title{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .app_text{
+    width:100%;
+    font-size: 15px;
+    padding-bottom:20px;
+    padding-left: 20px;
+  }
+
+
+  .app_title_text{
+    display: inline-block;
+    height: 25px;
+    background: linear-gradient(transparent 45%, #ffff66 0%);
+  }
+
+  .youtube_production_list_title{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .auto-mode_image{
+    height: 400px;
+  }
+
+  .content_box2{
+    display: none;
+  }
 }
 
-.title_production{
-  font-size: 80px;
-  height: 250px;
+@media screen and (max-width:1279px) {
+  header{
+    display: none;
+  }
+
+  .production_box{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-top: 100px;
+  }
+
+  .title_production{
+    font-size: 40px;
+    height: 120px;
+    
+  }
+
+  .content_box{
+    text-align: center;
+  }
+
+
+  .app_box{
+    font-size: 30px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .app_box_text{
+    height: 100px;
+    width: 160px;
+    padding-top: 27px;
+    background-image: url('/images/app.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin: auto 25%;
+  }
+  .app_box_text:hover{
+    filter:drop-shadow(10px 10px 10px #4e4e4e);
+    transition: 0.4s;
+  }
+
+  .youtube_box{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .youtube_box_text{
+    height: 100px;
+    width: 160px;
+    padding-top: 27px;
+    background-image: url('/images/youtbe.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin: auto 25%;
+  }
+  .youtube_box_text:hover{
+    filter:drop-shadow(10px 10px 10px #4e4e4e);
+    transition: 0.4s;
+  }
+
+
+  .app_production_list{
+    float: left;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+
+  .app_production_list_title{
+    font-size: 30px;
+  }
+
+  .app_productions{
+    height: 500px;
+  }
+
+  .app_production{
+    margin-top: 13px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .app_title{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .app_text{
+    width:90%;
+    font-size: 15px;
+    padding-bottom:20px;
+    padding-left: 20px;
+  }
+
+
+  .app_title_text{
+    display: inline-block;
+    height: 25px;
+    background: linear-gradient(transparent 45%, #ffff66 0%);
+  }
+
+  .youtube_production_list_title{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+
+  .auto-mode_image{
+    height: 180px;
+    text-align: center;
+  }
+
+  .content_box2{
+    position: fixed;
+    background-color: white;
+    bottom: 0px;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background: #CCCCCC
+  }
+
+  .content_box_mini_1{
+    margin-left: 3.5%;
+    height:100px;
+    width: 100px;
+    border-radius: 70px;
+    background-color: rgb(173, 12, 71);
+    color: white;
+    float: left;
+    padding-top: 35px;
+    text-align: center;
+  }
   
-}
+  .content_box_mini_2{
+    margin-left: 3.5%;
+    height:100px;
+    width: 100px;
+    border-radius: 70px;
+    background-color: #006600;
+    color: white;
+    float: left;
+    padding-top: 35px;
+    text-align: center;
+  }
 
-
-.content_box{
-  text-align: center;
-}
-
-
-.app_box{
-  float: left;
-  font-size: 40px;
-  margin-left: 300px;
-  margin-top: 10px;
-}
-
-.app_box_text{
-  height: 170px;
-  width: 320px;
-  padding-top: 47px;
-  background-image: url('/images/app.png');
-  border-radius: 30px;
-  font-family: 'Ubuntu Mono', monospace;
-  color: white;
-}
-.app_box_text:hover{
-  filter:drop-shadow(10px 10px 10px #4e4e4e);
-  transition: 0.4s;
-}
-.app_box:hover{
-  margin-left: 290px;
-  margin-top: 0;
-  transition: 0.4s;
-}
-
-.youtube_box{
-  float: right;
-  font-size: 40px;
-  margin-right: 300px;
-  margin-top: 10px;
-}
-
-.youtube_box_text{
-  height: 170px;
-  width: 320px;
-  padding-top: 47px;
-  background-image: url('/images/youtbe.png');
-  border-radius: 30px;
-  font-family: 'Ubuntu Mono', monospace;
-  color: white;
-}
-.youtube_box_text:hover{
-  filter:drop-shadow(10px 10px 10px #4e4e4e);
-  transition: 0.4s;
-}
-.youtube_box:hover{
-  margin-right: 310px;
-  margin-top: 0;
-  transition: 0.4s;
-}
-
-
-.app_production_list{
-  float: left;
-  height: 100vh;
-  padding: 10px 430px 0 430px;
-  width: 100%;
-  font-family: 'Ubuntu Mono', monospace;
-}
-
-.app_production_list_title{
-  font-size: 30px;
-}
-
-.app_productions{
-  height: 500px;
-}
-
-.app_production{
-  margin-top: 13px;
-  width: 100%;
-  border-radius: 20px;
-}
-.app_title{
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 20px;
-}
-.app_text{
-  width:100%;
-  font-size: 15px;
-  padding-bottom:20px;
-  padding-left: 20px;
-}
-
-
-.app_title_text{
-  display: inline-block;
-  height: 25px;
-  background: linear-gradient(transparent 45%, #ffff66 0%);
-}
-
-
-
-.youtube_production_list_title{
-  font-size: 30px;
-  margin-top: 50px;
+  .content_box_mini_3{
+    margin-left: 3.5%;
+    height:100px;
+    width: 100px;
+    border-radius: 70px;
+    background-color: #000088;
+    color: white;
+    float: left;
+    padding-top: 35px;
+    text-align: center;
+  }
+  
 }
