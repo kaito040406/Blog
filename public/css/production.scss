@@ -19,7 +19,6 @@
   .title_production{
     font-size: 80px;
     height: 250px;
-    
   }
 
 
@@ -145,13 +144,12 @@
     text-align: center;
     height: 100vh;
     font-family: 'Ubuntu Mono', monospace;
-    padding-top: 100px;
+    padding-top: 40px;
   }
 
   .title_production{
     font-size: 40px;
     height: 120px;
-    
   }
 
   .content_box{
@@ -297,4 +295,46 @@
     text-align: center;
   }
   
+}
+
+@media screen and (max-width:601px){
+  .production_box{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-top: 100px;
+  }
+
+  .app_box_text{
+    height: 100px;
+    width: 160px;
+    padding-top: 27px;
+    background-image: url('/images/app.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    
+    
+  }
+
+  .app_box_text:hover{
+    filter:drop-shadow(10px 10px 10px #4e4e4e);
+    transition: 0.4s;
+  }
+
+  .youtube_box{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .youtube_box_text{
+    height: 100px;
+    width: 160px;
+    padding-top: 27px;
+    background-image: url('/images/youtbe.png');
+    border-radius: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+  }
 }
