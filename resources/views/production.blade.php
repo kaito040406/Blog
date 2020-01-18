@@ -67,21 +67,6 @@
           <div class = "app_production">
             <div class = "app_title">
               <div class = "app_title_text">
-                FX用自動売買ツール auto-mode
-              </div>
-              <div class = "app_text">
-                FX向けの自動トレードツールを作成しました。<br>
-                OANDA apiを用いて、為替の情報を取得し、短期、中期、長期でのトレンドの情報を計算させて
-                相場情報を判断し、売買するツールです。デモ講座を用いて、利益を得るための調整を行なっております。<br>
-                今後は、機械学習を用いて、精度を向上させていく予定です。
-                <a href="{{url('/images/auto-mode.zip')}}" download><br>ダウンロードはこちら</a><br>
-                <img src="{{ asset('images/auto-mode.png') }}" alt="inu" class="auto-mode_image">
-              </div>
-            </div>
-          </div>
-          <div class = "app_production">
-            <div class = "app_title">
-              <div class = "app_title_text">
                 Dream diary
               </div>
               <div class = "app_text">
