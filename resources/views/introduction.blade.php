@@ -11,7 +11,6 @@
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     <link href="css/introduction.scss" rel="stylesheet" type="text/css">
-    <link href="css/main_page.scss" rel="stylesheet" type="text/css">
   </head>
   <body>
   <header>

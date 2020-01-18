@@ -1,8 +1,10 @@
 @media screen and (min-width:1280px) {
   header{
     position: relative;
-    top: 16px!important;
     z-index: 100;
+  }
+  .content_box2{
+    display: none;
   }
   
   .image_zone{
